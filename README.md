@@ -85,10 +85,14 @@
 -   **regedit**
     -   `HKEY_CURRENT_USER\Control Panel\Desktop\MenuShowDelay` → Set **0**.
     -   `HKEY_CURRENT_USER\Control Panel\Mouse\MouseHoverTime` → Set **0**.
--   **sysdm.cpl** → Visual Effects → Select **Best Performance** (Enable essential visual effects only).
+-   **sysdm.cpl** → Advanced → Performance → Settings → Visual Effects → Select **Custom** (Enable essential Visual Effects only).
+    - Here you can use this image for selecting Visual Effects
+
+    ![Visual Effects](https://i.ibb.co.com/S4kg2dxv/ss.png)
+
 -   **cleanmgr** → Clean **C Drive**.
 -   **Delete Temporary Files**
-    -   Run **temp**, **%temp%**, **prefetch** → Delete all files.
+    -   Run **temp**, **%temp%**, **prefetch**, **recent** → Delete all files.
 
 -   **Check for Unauthorized Users on Your PC:**
     
@@ -144,7 +148,7 @@
 
 ## **7. Privacy & Bloatware Cleanup**
 
--   **Run.bat (Created via [Privacy.sexy](https://privacy.sexy/))**
+-   Use **Run.bat** located in `Speed Performance` folder (Created via [Privacy.sexy](https://privacy.sexy/))
     -   Cleans: Temporary files, logs, caches, previous installations.
     -   Disables: Windows data collection, app tracking, telemetry.
     -   Removes: Unnecessary Windows apps, OneDrive, Windows Copilot.
