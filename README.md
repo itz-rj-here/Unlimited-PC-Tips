@@ -1,6 +1,4 @@
-# **Unlimited PC Tips**
-
-# **Optimize Your Windows Performance**
+# **Unlimited PC Tips: Optimize Your Windows Performance**
 
 - It's Highly recommended to create a system restore point, so that if you see any sort of issue you can revert back in case. If you don't do this step and see any kind of issue after applying these modifications, we will not take any responsibility for any device damage or issues.
 
