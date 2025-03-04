@@ -27,7 +27,7 @@
 #### **System**
 
 -   **Power Mode:** Set to **Best Performance**.
--   **Display** → **Graphics** → Enable **HAGPUS**.
+-   **Display** → **Graphics** → Enable **Hardware-accelerated GPU scheduling**.
 -   **Storage**
     -   Delete **Temporary Files**.
     -   Enable **Storage Sense**.
@@ -42,7 +42,7 @@
 
 #### **Gaming**
 
--   **Game Bar** → Disable **AYCTOGB** _(if you don't use Xbox Game Bar)_.
+-   **Game Bar** → Disable **Allow You to Capture This or Game Bar** _(if you don't use Xbox Game Bar)_.
 -   **Game Mode** → Enable **Game Mode**.
 
 #### **Accessibility**
