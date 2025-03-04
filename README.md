@@ -147,6 +147,7 @@
     -   Use **UWT 4.8** for **Windows 10**.
 -   **[Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701)** → The Best Terminal UI you may never seen. It's also an Official Software by Microsoft.
 -   **[Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)** → Tired of High RAM usage? No problem. This will help you get rid of extra RAM usage by your device.
+-   **[AB Download Manager](https://abdownloadmanager.com/)** → Alternative of Internet Download Manager (IDM).
 
 ## **7. Privacy & Bloatware Cleanup**
 
