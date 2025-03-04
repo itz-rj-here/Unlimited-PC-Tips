@@ -1,13 +1,15 @@
+# **Unlimited PC Tips**
+
 # **Optimize Your Windows Performance**
 
-- It's Highly recommanded to create a system restore point, so that if you see any sort of issue you can revert to the back in case. If you don't do this step and see any kind of issue after applying this modification changes, we will not taking any responsibilities to your device damage or issue.
+- It's Highly recommended to create a system restore point, so that if you see any sort of issue you can revert back in case. If you don't do this step and see any kind of issue after applying these modifications, we will not take any responsibility for any device damage or issues.
 
 ## **1. Use Atlas OS for Performance Boost (Highly Recommended)**
 
-- [Atlas OS](https://atlasos.net/) is the first and the best option to improve your windows device performance to the top level. It helps you to remove all the bootware and Telemetry from your device. They have almost **45,000+** community connected with **Atlas OS**.
-- Well, let me first tell you that **Atlas OS** is not a iso file or something. Basically, **Atlas OS** modifies and tweaks your windows operating system and make your windows device much faster than ever. If you are a Gamer or love to play games **Atlas OS** is must for your windows device.
-- It might be best option to do fresh reinstall windows and update all the security and feature updates, along with microsoft store updates. Then apply **Atlas OS** modification.
-- Now, if you find any sort of issue or problem with it or have any questions, you may should contact them by their [Discord](https://discord.atlasos.net/). You can also contact me instead if you want me to fix your problem.
+- [Atlas OS](https://atlasos.net/) is the first and the best option to improve your Windows device performance to the top level. It helps you remove all the bloatware and telemetry from your device. They have almost **45,000+** community members connected with **Atlas OS**.
+- **Atlas OS** is not an ISO file; it modifies and tweaks your Windows operating system to make it much faster. If you are a gamer or love to play games, **Atlas OS** is a must for your Windows device.
+- It is best to do a fresh Windows reinstall, update all security and feature updates, and apply **Atlas OS** modifications afterward.
+- If you find any issues or have any questions, you can contact them via their [Discord](https://discord.atlasos.net/). You can also contact me if you need help fixing problems.
 
 ---
 
@@ -78,7 +80,6 @@
         
         ```powershell
         powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61  
-        
         ```
         
 -   **sigverif** → Run to check driver signatures.
@@ -98,64 +99,12 @@
         -   In the user list, check for any unknown usernames.
         -   If you find an unknown user, **click on it** and hit **Remove**.
 
-
-## **4. CMD Optimization Commands**
-
--   **Run CMD as Administrator**
-    -   `DISM /Online /Cleanup-image /restorehealth` → Fix corrupted files.
-    -   `wmic diskdrive get status` → Check disk health.
-        -   If errors appear, run `chkdsk`.
-    -   `powercfg -energy` → Check battery health (**laptop users**).
-    -   `sfc /scannow` → Scan and fix system files.
-    -   `netsh int tcp set global autotuninglevel=disabled` → Speed up internet.
-    -   **Services.msc**
-        -   Start **Optimize Drives** service.
-        -   Set **Startup Type** to **Automatic**.
-
-----------
-
-## **5. Activate Windows & Office**
-
--   Visit **[https://massgrave.dev/](https://massgrave.dev/)**.
--   Alternatively, run the following command in **PowerShell (Admin)**:
-    
-    ```powershell
-    irm https://get.activated.win | iex  
-    
-    ```
-    
-
-----------
-
-## **6. Additional Tools**
-
--   **PC Manager** → Download and use.
--   **Ultimate Windows Tweaker (UWT)**
-    -   Use **UWT 5.1** for **Windows 11**.
-    -   Use **UWT 4.8** for **Windows 10**.
-
-----------
-
-## **7. Privacy & Bloatware Cleanup**
-
--   **"Run.bat" (Created via [Privacy.sexy](https://privacy.sexy/))**
-    -   **Cleans:** Temporary files, logs, caches, previous installations.
-    -   **Disables:** Windows data collection, app tracking, telemetry.
-    -   **Configures:** Disables Google/Adobe background updates, Office telemetry.
-    -   **Blocks:** Tracking hosts (Crash reports, telemetry, ads, Cortana, Live Tiles, etc.).
-    -   **Removes:** Unnecessary Windows apps, OneDrive, Meet Now, Windows Copilot.
-
-----------
-
-## **8. Bonus Tips**
-
 -   **Check Your Device Performance:**
     
     -   Run this command in PowerShell:
         
         ```powershell
         get-ciminstance win32_winsat  
-        
         ```
         
     -   This will check your device's performance as points.
@@ -165,12 +114,56 @@
         
         ```powershell
         iwr -useb https://git.io/debloat|iex  
-        
         ```
         
     -   This will remove any bloatware and uninstall unnecessary preinstalled Windows apps like OneDrive.
+-   **Services.msc** → Start **Optimize Drives** service and set **Startup Type** to **Automatic**.
 
+## **4. CMD Optimization Commands**
 
-----------
+-   **Run CMD as Administrator**
+    -   `DISM /Online /Cleanup-image /restorehealth` → Fix corrupted files.
+    -   `wmic diskdrive get status` → Check disk health.
+    -   `sfc /scannow` → Scan and fix system files.
+    -   `netsh int tcp set global autotuninglevel=disabled` → Speed up internet.
 
-### **Enjoy a Faster, More Efficient Windows Experience!** 🚀
+## **5. Activate Windows & Office**
+
+-   Visit **[https://massgrave.dev/](https://massgrave.dev/)**.
+-   Alternatively, run this command in **PowerShell (Admin)**:
+    ```powershell
+    irm https://get.activated.win | iex  
+    ```
+
+## **6. Additional Tools**
+
+-   **PC Manager** → Download and use.
+-   **Ultimate Windows Tweaker (UWT)**
+    -   Use **UWT 5.1** for **Windows 11**.
+    -   Use **UWT 4.8** for **Windows 10**.
+
+## **7. Privacy & Bloatware Cleanup**
+
+-   **Run.bat (Created via [Privacy.sexy](https://privacy.sexy/))**
+    -   Cleans: Temporary files, logs, caches, previous installations.
+    -   Disables: Windows data collection, app tracking, telemetry.
+    -   Removes: Unnecessary Windows apps, OneDrive, Windows Copilot.
+
+## **Contribute to This Repository**
+
+If you want to contribute to **Unlimited PC Tips**, follow these steps:
+
+1. Fork the repository.
+2. Make your changes and improvements.
+3. Submit a pull request with a detailed description.
+
+Your contributions will help others optimize their Windows devices more efficiently! 💻🚀
+
+For any questions or support, you can reach me via:
+
+- **Telegram**: [@itz_rj_here](https://t.me/itz_rj_here)
+- **Email**: [faiadmahmudadil@gmail.com](mailto:faiadmahmudadil@gmail.com)
+- **Discord**: [_itz_rj_](https://discordapp.com/users/722033282631467069)
+
+Let's make Windows run smoother together! 🎯
+
