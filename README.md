@@ -15,7 +15,7 @@
 
 ### **Windows Modification CMD**
 
--   Start with the `Windows-Modification-CMD` folder.
+-   Start with the `Windows-Modification-CMD` folder located in `Speed Performance` folder.
 -   Run `"Windows Service Control v26.10.2023.bat"` first.
 -   Use other scripts for additional performance boosts.
 -   If the internet stops working, restart `"Windows Service Control v26.10.2023.bat"` CMD and enable all internet services.
@@ -122,6 +122,8 @@
 -   **Run CMD as Administrator**
     -   `DISM /Online /Cleanup-image /restorehealth` → Fix corrupted files.
     -   `wmic diskdrive get status` → Check disk health.
+        - If errors appear, run `chkdsk` in the CMD.
+    -   `powercfg -energy` → Check battery health (For Laptop Users).
     -   `sfc /scannow` → Scan and fix system files.
     -   `netsh int tcp set global autotuninglevel=disabled` → Speed up internet.
 
