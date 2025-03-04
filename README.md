@@ -141,10 +141,12 @@
 
 ## **6. Additional Tools**
 
--   **PC Manager** → Download and use.
--   **Ultimate Windows Tweaker (UWT)**
+-   **[Microsoft PC Manager]()** → It's Microsoft's Official Software which you can use to boost your device.
+-   **Ultimate Windows Tweaker (UWT)** → You can use these to tweak some Windows feature through it.
     -   Use **UWT 5.1** for **Windows 11**.
     -   Use **UWT 4.8** for **Windows 10**.
+-   **[Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701)** → The Best Terminal UI you may never seen. It's also an Official Software by Microsoft.
+-   **[Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)** → Tired of High RAM usage? No problem. This will help you get rid of extra RAM usage by your device.
 
 ## **7. Privacy & Bloatware Cleanup**
 
