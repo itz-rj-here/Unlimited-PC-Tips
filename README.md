@@ -141,13 +141,15 @@
 
 ## **6. Additional Tools**
 
--   **[Microsoft PC Manager]()** → It's Microsoft's Official Software which you can use to boost your device.
--   **Ultimate Windows Tweaker (UWT)** → You can use these to tweak some Windows feature through it.
-    -   Use **UWT 5.1** for **Windows 11**.
-    -   Use **UWT 4.8** for **Windows 10**.
--   **[Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701)** → The Best Terminal UI you may never seen. It's also an Official Software by Microsoft.
--   **[Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)** → Tired of High RAM usage? No problem. This will help you get rid of extra RAM usage by your device.
--   **[AB Download Manager](https://abdownloadmanager.com/)** → Alternative of Internet Download Manager (IDM).
+-   **[Microsoft PC Manager](https://pcmanager.microsoft.com/)** → Official software from Microsoft designed to optimize your PC’s performance and improve system efficiency.
+-   **[Ultimate Windows Tweaker (UWT)](https://www.thewindowsclub.com/ultimate-windows-tweaker-5-for-windows-11)** → A powerful tool to tweak and customize various Windows features.
+-   **[Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701)** → A modern and powerful terminal application with an improved UI, officially developed by Microsoft.
+-   **[Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)** → Experiencing high RAM usage? This tool helps free up unnecessary memory and improve system performance.
+-   **[AB Download Manager](https://abdownloadmanager.com/)** → A great alternative to Internet Download Manager (IDM) with efficient download management.
+-   **[Camomile App](https://camomileapp.com/)** → Optimizes your CPU and helps cool it down, improving overall system stability and performance.
+-   **[DefenderUI](https://www.defenderui.com/)** → Enhances Microsoft Defender with an improved UI and additional security customization options.
+-   **[PDFgear](https://www.pdfgear.com/)** → A feature-rich, AI-powered, and completely free PDF editor with advanced customization tools.
+-   **[Photopea](https://www.photopea.com/)** → A powerful web-based photo editor that supports various file formats, including PSD, AI, XD, FIG, RAW, and even PDFs.
 
 ## **7. Privacy & Bloatware Cleanup**
 
