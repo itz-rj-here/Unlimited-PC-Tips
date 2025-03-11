@@ -130,6 +130,7 @@
     -   `powercfg -energy` → Check battery health (For Laptop Users).
     -   `sfc /scannow` → Scan and fix system files.
     -   `netsh int tcp set global autotuninglevel=disabled` → Speed up internet.
+    -   `del /f/s/q %systemroot%\minidump\*.*` and `del *.dmp/s` → Deletes dump files.
 
 ## **5. Activate Windows & Office**
 
@@ -150,6 +151,8 @@
 -   **[DefenderUI](https://www.defenderui.com/)** → Enhances Microsoft Defender with an improved UI and additional security customization options.
 -   **[PDFgear](https://www.pdfgear.com/)** → A feature-rich, AI-powered, and completely free PDF editor with advanced customization tools.
 -   **[Photopea](https://www.photopea.com/)** → A powerful web-based photo editor that supports various file formats, including PSD, AI, XD, FIG, RAW, and even PDFs.
+-   **[Privacy.sexy](https://privacy.sexy/) → A open-source tool to enforce privacy & security best-practices on Windows, macOS and Linux.**
+-   **[Wise Disk Cleaner](https://www.wisecleaner.com/wise-disk-cleaner.html) → Clean useless and outdated junk files, browser traces, cookies, and history. Free up your disk space, protect your privacy, and make your PC run faster.**
 
 ## **7. Privacy & Bloatware Cleanup**
 
