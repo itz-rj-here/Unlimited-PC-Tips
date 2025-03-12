@@ -90,6 +90,8 @@
 
     ![Visual Effects](https://i.ibb.co/S4kg2dxv/ss.png)
 
+    - After completing these steps, go to Advanced → Performance → Settings → **Advanced**. Under **Processor scheduling**, select Adjust for best performance of: **Programs**.
+
 -   **cleanmgr** → Clean **C Drive**.
 -   **Delete Temporary Files**
     -   Run **temp**, **%temp%**, **prefetch**, **recent** → Delete all files.
