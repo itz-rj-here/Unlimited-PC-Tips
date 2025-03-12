@@ -1,21 +1,21 @@
 # **Unlimited PC Tips: Optimize Your Windows Performance**
 
-- It's Highly recommended to create a system restore point, so that if you see any sort of issue you can revert back in case. If you don't do this step and see any kind of issue after applying these modifications, we will not take any responsibility for any device damage or issues.
+- It's highly recommended to create a system restore point so that if you encounter any issues, you can revert back. If you don't do this step and experience any problems after applying these modifications, we will not take any responsibility for any device damage or issues.
 
 ## **1. Use Atlas OS for Performance Boost (Highly Recommended)**
 
-- [Atlas OS](https://atlasos.net/) is the first and the best option to improve your Windows device performance to the top level. It helps you remove all the bloatware and telemetry from your device. They have almost **45,000+** community members connected with **Atlas OS**.
+- [Atlas OS](https://atlasos.net/) is the first and best option to improve your Windows device performance to the top level. It helps you remove all the bloatware and telemetry from your device. They have almost **45,000+** community members connected with **Atlas OS**.
 - **Atlas OS** is not an ISO file; it modifies and tweaks your Windows operating system to make it much faster. If you are a gamer or love to play games, **Atlas OS** is a must for your Windows device.
 - It is best to do a fresh Windows reinstall, update all security and feature updates, and apply **Atlas OS** modifications afterward.
 - If you find any issues or have any questions, you can contact them via their [Discord](https://discord.atlasos.net/). You can also contact me if you need help fixing problems.
 
 ---
 
-**or, use**
+**Alternatively, use**
 
 ### **Windows Modification CMD**
 
--   Start with the `Windows-Modification-CMD` folder located in `Speed Performance` folder.
+-   Start with the `Windows-Modification-CMD` folder located in the `Speed Performance` folder.
 -   Run `"Windows Service Control v26.10.2023.bat"` first.
 -   Use other scripts for additional performance boosts.
 -   If the internet stops working, restart `"Windows Service Control v26.10.2023.bat"` CMD and enable all internet services.
@@ -31,13 +31,13 @@
 -   **Storage**
     -   Delete **Temporary Files**.
     -   Enable **Storage Sense**.
-    -   Cleanup Recommendations → Optimize **Drivers**.
--   **Recovery** → **Reset PC** _(only if needed, will delete all data)._
+    -   Cleanup Recommendations → Optimize **Drives**.
+-   **Recovery** → **Reset PC** _(only if needed, will delete all data)_.
 
 #### **Apps**
 
--   **Startup** → Disable useless apps (**Win 11 users**).
--   **Alternatively:** Press **Ctrl + Shift + Esc** → **Startup** → Disable useless apps.
+-   **Startup** → Disable unnecessary apps (**Win 11 users**).
+-   **Alternatively:** Press **Ctrl + Shift + Esc** → **Startup** → Disable unnecessary apps.
 -   **Installed Apps** → Uninstall unnecessary apps.
 
 #### **Gaming**
@@ -53,7 +53,7 @@
 
 -   **Windows Security**
     -   Run **Quick Scan**.
-    -   Enable security _(if disabled, for safety)._
+    -   Enable security _(if disabled, for safety)_.
 -   **General** → Disable all ads.
 -   **Diagnostics & Feedback** → Disable all tracking.
 
@@ -88,7 +88,7 @@
 -   **sysdm.cpl** → Advanced → Performance → Settings → Visual Effects → Select **Custom** (Enable essential Visual Effects only).
     - Here you can use this image for selecting Visual Effects
 
-    ![Visual Effects](https://i.ibb.co.com/S4kg2dxv/ss.png)
+    ![Visual Effects](https://i.ibb.co/S4kg2dxv/ss.png)
 
 -   **cleanmgr** → Clean **C Drive**.
 -   **Delete Temporary Files**
@@ -119,7 +119,7 @@
         ```
         
     -   This will remove any bloatware and uninstall unnecessary preinstalled Windows apps like OneDrive.
--   **Services.msc** → Start **Optimize Drives** service and set **Startup Type** to **Automatic**.
+-   **Services.msc** → Start the **Optimize Drives** service and set **Startup Type** to **Automatic**.
 
 ## **4. CMD Optimization Commands**
 
@@ -129,8 +129,9 @@
         - If errors appear, run `chkdsk` in the CMD.
     -   `powercfg -energy` → Check battery health (For Laptop Users).
     -   `sfc /scannow` → Scan and fix system files.
-    -   `netsh int tcp set global autotuninglevel=disabled` → Speed up internet.
-    -   `del /f/s/q %systemroot%\minidump\*.*` and `del *.dmp/s` → Deletes dump files.
+    -   `netsh int tcp set global autotuninglevel=disabled` → Speed up the internet.
+    -   `del /f/s/q %systemroot%\minidump\*.*` and `del *.dmp/s` → Delete dump files.
+    -   `robocopy /e "file_location" "paste_file_location"` → Copy large files/folders faster.
 
 ## **5. Activate Windows & Office**
 
@@ -151,12 +152,13 @@
 -   **[DefenderUI](https://www.defenderui.com/)** → Enhances Microsoft Defender with an improved UI and additional security customization options.
 -   **[PDFgear](https://www.pdfgear.com/)** → A feature-rich, AI-powered, and completely free PDF editor with advanced customization tools.
 -   **[Photopea](https://www.photopea.com/)** → A powerful web-based photo editor that supports various file formats, including PSD, AI, XD, FIG, RAW, and even PDFs.
--   **[Privacy.sexy](https://privacy.sexy/) → A open-source tool to enforce privacy & security best-practices on Windows, macOS and Linux.**
--   **[Wise Disk Cleaner](https://www.wisecleaner.com/wise-disk-cleaner.html) → Clean useless and outdated junk files, browser traces, cookies, and history. Free up your disk space, protect your privacy, and make your PC run faster.**
+-   **[Privacy.sexy](https://privacy.sexy/)** → An open-source tool to enforce privacy & security best practices on Windows, macOS, and Linux.
+-   **[Wise Disk Cleaner](https://www.wisecleaner.com/wise-disk-cleaner.html)** → Clean up useless and outdated junk files, browser traces, cookies, and history. Free up your disk space, protect your privacy, and make your PC run faster.
+-   **[MSI Afterburner](https://www.msi.com/Landing/afterburner/graphics-cards)** → The best software to maximize the performance of your device. Note: Older PCs may not work properly with this software.
 
 ## **7. Privacy & Bloatware Cleanup**
 
--   Use **Run.bat** located in `Speed Performance` folder (Created via [Privacy.sexy](https://privacy.sexy/))
+-   Use **Run.bat** located in the `Speed Performance` folder (Created via [Privacy.sexy](https://privacy.sexy/))
     -   Cleans: Temporary files, logs, caches, previous installations.
     -   Disables: Windows data collection, app tracking, telemetry.
     -   Removes: Unnecessary Windows apps, OneDrive, Windows Copilot.
