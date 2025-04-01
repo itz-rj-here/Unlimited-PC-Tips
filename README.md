@@ -157,6 +157,7 @@
 -   **[Privacy.sexy](https://privacy.sexy/)** → An open-source tool to enforce privacy & security best practices on Windows, macOS, and Linux.
 -   **[Wise Disk Cleaner](https://www.wisecleaner.com/wise-disk-cleaner.html)** → Clean up useless and outdated junk files, browser traces, cookies, and history. Free up your disk space, protect your privacy, and make your PC run faster.
 -   **[MSI Afterburner](https://www.msi.com/Landing/afterburner/graphics-cards)** → The best software to maximize the performance of your device. Note: Older PCs may not work properly with this software.
+-   **[React Bits](https://www.reactbits.dev/)** → An open source collection of animated, interactive & fully customizable React components for building stunning, memorable user interfaces.
 
 ## **7. Privacy & Bloatware Cleanup**
 
