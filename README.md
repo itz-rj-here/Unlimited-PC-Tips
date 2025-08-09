@@ -134,6 +134,7 @@
     -   `netsh int tcp set global autotuninglevel=disabled` → Speed up the internet.
     -   `del /f/s/q %systemroot%\minidump\*.*` and `del *.dmp/s` → Delete dump files.
     -   `robocopy /e "file_location" "paste_file_location"` → Copy large files/folders faster.
+    -   `winget install yt-dlp` then, `yt-dlp "yt_link"` → Download Youtube Videos in Highest Quality.
 
 ## **5. Activate Windows & Office**
 
