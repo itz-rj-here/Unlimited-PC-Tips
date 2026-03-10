@@ -1,0 +1,8 @@
+& ([scriptblock]::Create((irm "https://debloat.raphi.re/"))) - Debloat Windows
+
+VK7JG-NPHTM-C97JM-9MPGT-3V66T - Win 11 Pro Key (Offline)
+
+irm https://get.activated.win | iex - Win and Office Activate
+
+iwr -useb https://christitus.com/win | iex - Ultimate Windows Utility
+
