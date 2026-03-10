@@ -117,7 +117,7 @@
     -   Run this command in PowerShell:
         
         ```powershell
-        iwr -useb https://git.io/debloat|iex  
+        & ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
         ```
         
     -   This will remove any bloatware and uninstall unnecessary preinstalled Windows apps like OneDrive.
